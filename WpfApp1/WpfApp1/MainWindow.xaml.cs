@@ -20,5 +20,15 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hola mundo wpf");
+            int a;
+            for (int i = 0; i < 10; i++) {
+                if (i == 5)
+                    MessageBox.Show("Fiel");
+            }
+        }
     }
 }

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="94,75,0,0" VerticalAlignment="Top" Width="81"/>
-        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,165,0,10"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,125,0,50"/>
 
     </Grid>
 </Window>
