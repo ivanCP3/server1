@@ -9,6 +9,7 @@
     <Grid>
         <Button Content="Apretar" HorizontalAlignment="Left" Margin="20,27,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,125,0,50"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="363,10,0,0" VerticalAlignment="Top" Width="100" />
 
     </Grid>
 </Window>
