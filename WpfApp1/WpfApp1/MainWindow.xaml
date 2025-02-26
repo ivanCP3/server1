@@ -6,12 +6,11 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-<<<<<<< HEAD
+    <Grid> 
         <Button Content="Apretar" HorizontalAlignment="Left" Margin="32,46,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
-=======
-        <Button Content="Apretar" HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
->>>>>>> 4feb4b0fb671dd1a9f973ff4d454434e52d9764c
+ 
+        <Button Content="Apretar" HorizontalAlignment="Left" Margin="32,84,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+ 
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,125,0,50"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="411,10,0,0" VerticalAlignment="Top" Width="100" />
 
